@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes import hello  # Esto requiere que exista app/routes.py
+from app.routes import hello  # Esto requiere que exista app/routes.py
 
 app = FastAPI()
 
