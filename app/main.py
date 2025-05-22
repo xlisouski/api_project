@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes.hello import router  # IMPORTÁS el router directamente
+from routes.hello import router  # IMPORTÁS el router directamente
 
 app = FastAPI()
 
